@@ -1,6 +1,14 @@
 .main-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: black;
 }
 .main-block_header {
 	color: red;
+}
+.main-block_parag {
+	color: white;
+	font-size: 12px;
 }
