@@ -1,4 +1,8 @@
 .main-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: black;
 }
 .main-block_header {
@@ -6,5 +10,5 @@
 }
 .main-block_parag {
 	color: white;
-	text-align: center;
+	font-size: 12px;
 }
